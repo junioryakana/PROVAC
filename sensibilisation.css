@@ -47,14 +47,15 @@ html{
   position: absolute;
   top: 10px; /* Adjust position from the top */
   left: 0; /* Adjust position from the left */
-  width: 300px;
+  width: 340px;
   height: 556px;
   background-color: #ff6f61;
   background-color: #123C69;
   color: #FFF;
 }
 .arrange {
-  margin-left: 4px;
+  font-size: 18px;
+  margin-left: 5px;
   margin-top: 60%;
 }
 .arrange h2{
@@ -62,7 +63,7 @@ html{
 }
 @media (max-width: 768px){
   .square {
-    width: 130px;
+    width: 135px;
   height: 144px;
   }
  
@@ -179,7 +180,7 @@ html{
     }
     .public::after{
       width: 25%;
-      left: 1rem;
+      left: 2rem;
       margin-left: 12px;
     }
   }

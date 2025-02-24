@@ -63,7 +63,7 @@ html{
 }
 @media (max-width: 768px){
   .sens1{
-    width: 280px;
+    max-width: 90%;
     
   }
 }
@@ -106,7 +106,7 @@ html{
   @media (max-width: 768px){
     .container-s{
         max-width: 90%;
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
   }
   
@@ -161,7 +161,7 @@ html{
     transition: width 0.3s ease;  
   }
 .text1{
-    max-width: 50%;
+    max-width: 80%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -185,6 +185,16 @@ html{
     background-color: blueviolet;
     transition: width 0.3s ease;   
 }
+@media (max-width: 768px){
+    .under{
+        font-size: 1.5rem;
+}
+    .under::after{
+        width: 25%;
+        left: 0;
+        margin-left: 2px;
+}
+}
 .head1{
     font-weight: bolder;
     font-size: 60px;
@@ -203,7 +213,14 @@ html{
     margin-left: 8%;
     text-align: center;
 }
-.reveal.active{
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+  .reveal.active{
     transform: translateY(0px);
     opacity: 1;
   }
