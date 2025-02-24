@@ -1,0 +1,498 @@
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  background: linear-gradient(to left top, #383f47, #8B53FF);
+}
+
+.logo {
+    transform: translateY(-2px);
+}
+
+.text-start{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: #383f47;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+@media (max-width: 768px){
+    .text-start{
+        font-size: 30px;
+    }
+}
+.opp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.sens1{
+    max-width: 100%;
+    margin: 10px auto;
+    margin-inline-end: 0;
+    
+}
+@media (max-width: 768px){
+  .sens1{
+    width: 280px;
+    
+  }
+}
+.square {
+  position: absolute;
+  top: 10px; /* Adjust position from the top */
+  left: 0; /* Adjust position from the left */
+  width: 300px;
+  height: 556px;
+  background-color: #ff6f61;
+  background-color: #123C69;
+  color: #FFF;
+}
+.arrange {
+  margin-left: 4px;
+  margin-top: 60%;
+}
+.arrange h2{
+  text-align: center;
+}
+@media (max-width: 768px){
+  .square {
+    width: 130px;
+  height: 144px;
+  }
+ 
+}
+@media (max-width: 768px){
+  .arrange{
+    margin-top: 10%;
+  }
+  .arrange h2{
+    font-size: 14px;
+    text-align: left;
+  }
+  .arrange p{
+    font-size: 8px;
+  }
+}
+
+.card-text{
+  margin-left: 11%;
+}
+@media (max-width: 768px){
+  .card-text{
+    font-size: 10px;
+    margin-left: 3.5rem;
+  }
+}
+.wrapper-s {
+    display: flex;
+    margin: 30px;
+    margin-left: 5%;
+    margin-top: 7%;
+    gap: 16%;
+    width: 95%;
+}
+@media (max-width: 768px){
+    .wrapper-s{
+      flex-direction: column; 
+      gap: 5px;
+      width: 100%;
+    }
+}
+.text-box1{
+    color: #383f47;
+    align-content: first baseline; 
+    max-width: 50%; 
+}
+.text-box1 h1{
+    font-size: 60px;
+}
+.text-box1 p{
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    .text-box1{
+        max-width: 93%;
+    }
+    .text-box1 h1{
+        font-size: 35px;
+    }
+    .text-box1 p{
+        font-size: 18px;
+    }
+}
+.text-box2{
+    color: #383f47;
+    align-content: first baseline;
+    max-width: 30%;
+}
+.text-box2 h2{
+  font-size: 50px; 
+  color: #8B53FF; 
+}
+.text-box2 h3{
+    font-size: 30px;
+}
+@media (max-width: 768px){
+    .text-box2{
+        max-width: 93%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .text-box2 h1{
+        font-size: 40px;
+    }
+    .text-box2 p{
+        font-size: 18px;
+    }
+}
+
+.public {
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: center; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 7rem;
+  }
+  
+  .public::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 32.5%; /* Center-align the underline (adjust based on the width) */
+    width: 15%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+  }
+  @media (max-width: 768px){
+    .public{
+      font-size: 3.5rem;
+    }
+    .public::after{
+      width: 25%;
+      left: 1rem;
+      margin-left: 12px;
+    }
+  }
+
+
+  .eins {
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: start; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 7rem;
+  }
+  
+  .eins::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0; /* Center-align the underline (adjust based on the width) */
+    width: 20%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+  }
+  @media (max-width: 768px){
+    .eins{
+      font-size: 3.5rem;
+    }
+    .eins::after{
+      width: 25%;
+      left: 0;
+      margin-left: 2px;
+    }
+  }
+
+
+  
+  .zwei {
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: start; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 7rem;
+  }
+  
+  .zwei::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0; /* Center-align the underline (adjust based on the width) */
+    width: 30%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+  }
+  @media (max-width: 768px){
+    .zwei{
+      font-size: 3.5rem;
+    }
+    .zwei::after{
+      width: 25%;
+      left: 0;
+      margin-left: 2px;
+    }
+  }
+  .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Spacing between images */
+    padding: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Constrain maximum width for each image */
+    margin: 0 auto; /* Center each image */
+    overflow: hidden; /* Ensures content doesn't overflow the container */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust centering */
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 35px;
+    border-radius: 10px; /* Optional: rounded corners */
+    width: 80%; /* Make text block responsive */
+  }
+  
+  .text-overlay h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .text-overlay p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .image-row {
+      flex-direction: column; /* Stack images vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .text-overlay h1 {
+      font-size: 1.2rem;
+    }
+  
+    .text-overlay p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-overlay h1 {
+      font-size: 1rem;
+    }
+  
+    .text-overlay p {
+      font-size: 0.8rem;
+    }
+  
+    .text-overlay {
+      padding: 10px;
+      width: 90%; /* Adjust width for very small screens */
+    }
+  }
+
+.container-p{
+  max-width: 85%;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 768px){
+  .container-p{
+    margin-left: 16px;
+  }
+}
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+
+footer{
+    width: 100%;
+    position: bottom;
+    bottom: 0;
+    background: linear-gradient(to right,#00093C, #2D0B00);
+    color: #fff;
+    padding: 60px 0px 30px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 20%;
+  }
+  .logo-2{
+    width: 80px;
+    margin-bottom: 30px;
+  }
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom:  1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .ul-li ul li{
+    list-style: none;
+    margin-bottom: 12px;  
+  }
+  .ul-li ul li a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: left;
+   
+  }
+  form-sf{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  form-sf .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  form-sf input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+  }
+  form-sf button{
+    background: white;
+    width: 20%;
+    height: 25px;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 80px;
+    outline: none;
+    cursor: pointer;
+  }
+  form-sf button .fa-solid {
+    font-size: 20px;
+    color: #ccc;
+  }
+  .social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  }
+  .bottom-line hr{
+    width: 90%;
+    border: 0;
+    color: white;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    overflow: hidden;
+  }
+  .underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 1s linear infinite;
+  }
+  @keyframes moving{
+    0%{
+      left: -20px;
+    }
+    100%{
+      left: 100%;
+    }
+  }
+  @media (max-width:700px) {
+    footer{
+      bottom: unset;
+    }
+    .col{
+      flex-basis: 100%;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+      flex-basis: 100%;
+    }
+}
