@@ -87,7 +87,7 @@ html{
 }
 @media (max-width: 768px){
   .intro-1{
-    max-width: 95%;
+    max-width: 90%;
     margin-left: 5%;
   }
 }

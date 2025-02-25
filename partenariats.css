@@ -86,7 +86,7 @@ html{
       flex-direction: column; /* Stack items vertically */
       gap: 10px;
       margin: 20px; /* Reduce margin further for smaller screens */
-      margin-left: 40px;
+      margin-left: 8px;
       align-items: center;
     }
   }

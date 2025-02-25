@@ -103,8 +103,8 @@ html{
   }
 
   .row-sm .imgwrapper-sm {
-      max-width: 350px; /* Adjust image size */
-      margin-left: 60px;
+      max-width: 450px; /* Adjust image size */
+      margin-left: 20px;
   }
 
   .row-sm .contentwrapper-sm {
@@ -256,6 +256,7 @@ html{
     flex-direction: column; /* Stack elements vertically */
     gap: 20px; /* Reduce the gap */
     margin: 20px 10px; /* Adjust margins for smaller screens */
+  
   }
 
   .float {
