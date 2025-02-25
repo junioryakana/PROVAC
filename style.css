@@ -226,7 +226,7 @@ margin-left: 1rem;
     flex-direction: column; /* Stack items vertically */
     gap: 10px;
     margin: 20px; /* Reduce margin further for smaller screens */
-    margin-left: 15px;
+    margin-left: 10px;
     align-items: center;
   }
 }
