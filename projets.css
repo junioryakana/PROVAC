@@ -107,6 +107,7 @@ html{
     .container-s{
         max-width: 90%;
       margin-left: 1rem;
+      gap: 10px;
     }
   }
   

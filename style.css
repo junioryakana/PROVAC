@@ -217,7 +217,7 @@ margin-left: 1rem;
   flex-wrap: wrap;
   column-gap: 30px;
   margin: 50px;
-  margin-left: 90px;
+  margin-left: 12px;
   height: auto;
 }
 
@@ -226,7 +226,7 @@ margin-left: 1rem;
     flex-direction: column; /* Stack items vertically */
     gap: 10px;
     margin: 20px; /* Reduce margin further for smaller screens */
-    margin-left: 40px;
+    margin-left: 20px;
     align-items: center;
   }
 }
