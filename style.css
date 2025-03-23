@@ -212,164 +212,149 @@ margin-left: 1rem;
   transform: scale(1.1);
 }
 
-.container-fluid{
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  margin: 50px;
-  margin-left: 14px;
-  height: auto;
-}
+.rounde{
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Ensures a perfect circle */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image fills the circle */
+  border: 5px solid #8B53FF; /* Optional border */
+  margin-left: 42.5%;
+  margin-top: 5%;
 
-@media (max-width: 768px) {
-  .container-fluid {
-    flex-direction: column; /* Stack items vertically */
-    gap: 10px;
-    margin: 20px; /* Reduce margin further for smaller screens */
-    margin-left: 8px;
-    align-items: center;
+}
+@media(max-width: 768px){
+  .rounde{
+      width: 150px;
+      height: 150px;
+      margin-left: 30%;
+      border: 3px solid #8B53FF;
+  }
+
+}
+.rounde1{
+  color: #383f47;
+  align-content: first baseline;
+  max-width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.rounde1 h2{
+  max-width: 90%;
+  font-size: 50px; 
+  color:  #383f47;
+}
+@media(max-width: 768px){
+  .rounde1{
+      max-width: 100%;
+      margin-left: 8%;
+  }
+  .rounde1 h2{
+      font-size: 35px;
+
   }
 }
-
-.sec {
+.underline0{
   position: relative;
-  display: inline-block; /* Ensures the underline adapts to the text width */
-  font-size: 3rem; /* Adjust font size as needed */
-  text-align: center;
+  display: block; /* Change to block for full-width centering */
+  font-size: 5rem; /* Adjust font size as needed */
+  text-align: center; /* Centers the text within the block */
   color: #383f47;
-   
+  margin: 10px auto; /* Centers the block element */
+  margin-bottom: 2rem;
 }
-.sec::after{
+.underline0::after {
   content: "";
   position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 40%;
+  bottom: -10px;
+  left: 16%; /* Center-align the underline (adjust based on the width) */
+  width: 25%; /* Set the desired underline width */
   height: 4px;
   border-radius: 10px;
   background-color: blueviolet;
-  transition: width 0.3s ease; 
+  transition: width 0.3s ease;
 }
-.left {
+@media (max-width: 768px){
+  .underline0{
+    font-size: 3.5rem;
+  }
+  .underline0::after{
+    width: 25%;
+    left: 6rem;
+    margin-left: 12px;
+  }
+}
+a {
+  text-decoration: none;
+}
+a::after{
+  color: paleturquoise;
+}
+a:hover{
+  color:hotpink ;
+}
+a:visited{
+  color: blue;
+}
+
+.underline22{
   position: relative;
-  display: inline-block; /* Ensures the underline adapts to the text width */
-  font-size: 3rem; /* Adjust font size as needed */
+  display: block; /* Change to block for full-width centering */
+  font-size: 5rem; /* Adjust font size as needed */
+  text-align: center; /* Centers the text within the block */
   color: #383f47;
-  
+  margin: 10px auto; /* Centers the block element */
+  margin-bottom: 2rem;
 }
-.left:after{
+.underline22::after {
   content: "";
   position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 40%;
-  height: 3px;
+  bottom: -10px;
+  left: 4%; /* Center-align the underline (adjust based on the width) */
+  width: 25%; /* Set the desired underline width */
+  height: 4px;
   border-radius: 10px;
   background-color: blueviolet;
   transition: width 0.3s ease;
 }
 @media (max-width: 768px){
-  .left {
-    font-size: 2rem; /* Adjust font size for smaller screens */
+  .underline22{
+    font-size: 3.5rem;
   }
-  .left:after {
-    max-width: 40%; /* Adjust the underline width for smaller screens */
-    left: 0;  
-    margin-left: -10px;
+  .underline22::after{
+    width: 25%;
+    left: 6rem;
+    margin-left: 12px;
   }
-}
-.leftmiddle {
-  position: relative;
-  display: inline-block; /* Ensures the underline adapts to the text width */
-  font-size: 3rem; /* Adjust font size as needed */
-  text-align: left;
-  color: #383f47;
-  margin: 6px auto; /* Centers the heading */
 }
 
-.leftmiddle:after {
+.underline23{
+  position: relative;
+  display: block; /* Change to block for full-width centering */
+  font-size: 5rem; /* Adjust font size as needed */
+  text-align: center; /* Centers the text within the block */
+  color: #383f47;
+  margin: 10px auto; /* Centers the block element */
+  margin-bottom: 2rem;
+}
+.underline23::after {
   content: "";
   position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 46%; /* Default underline width */
-  height: 3px;
-  border-radius: 10px;
-  background-color: blueviolet;
-  transition: width 0.3s ease, left 0.3s ease; /* Smooth transitions */
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .leftmiddle:after {
-    max-width: 30%; /* Adjust underline width for smaller screens */
-    left: 1%; /* Adjust left alignment */
-    margin-left: -10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .leftmiddle:after {
-    width: 30%; /* Further adjust underline width for very small screens */
-    left: 5%; /* Adjust left alignment */
-  }
-}
-.middle{
-  position: relative;
-  display: inline-block; /* Ensures the underline adapts to the text width */
-  font-size: 3rem; /* Adjust font size as needed */
-  text-align: left;
-  color: #383f47;
-  margin: 6px auto; /* Centers the heading */
-}
-.middle:after{
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 46%;
-  height: 3px;
+  bottom: -10px;
+  left: 24%; /* Center-align the underline (adjust based on the width) */
+  width: 25%; /* Set the desired underline width */
+  height: 4px;
   border-radius: 10px;
   background-color: blueviolet;
   transition: width 0.3s ease;
 }
 @media (max-width: 768px){
-  .middle{
-   font-size: 2rem; 
-  } 
-  .middle:after{
-    max-width: 40%;
-    top: 100%;
-    margin-left: -10px;
+  .underline23{
+    font-size: 3.5rem;
   }
-}
-.right{
-  position: relative;
-  display: inline-block; /* Ensures the underline adapts to the text width */
-  font-size: 3rem; /* Adjust font size as needed */
-  text-align: left;
-  color: #383f47;
-  margin: 6px auto; /* Centers the heading */
-}
-.right:after{
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 46%;
-  height: 3px;
-  border-radius: 10px;
-  background-color: blueviolet;
-  transition: width 0.3s ease;
-}
-@media (max-width: 768px){
-  .right{
-   font-size: 2rem; 
-  } 
-  .right:after{
-    max-width: 40%;
-    top: 100%;
-    margin-left: -10px;
+  .underline23::after{
+    width: 25%;
+    left: 6rem;
+    margin-left: 12px;
   }
 }
 .left2{
@@ -492,10 +477,6 @@ column-gap: 70px;
 
 
 @media (max-width: 768px) {
-  .left:after,
-  .leftmiddle:after,
-  .middle:after,
-  .right:after,
   .left2:after,
   .middlemid:after,
   .middleright:after {

@@ -1,0 +1,142 @@
+
+.rounde{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 5px solid #8B53FF; /* Optional border */
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+@media(max-width: 768px){
+    .rounde{
+        width: 150px;
+        height: 150px;
+        margin-left: 30%;
+        border: 3px solid #8B53FF;
+    }
+
+}
+.rounde1{
+    color: #383f47;
+    align-content: first baseline;
+    max-width: 40%;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+.rounde1 h2{
+    font-size: 50px; 
+    color:  #383f47;
+}
+@media(max-width: 768px){
+    .rounde1{
+        max-width: 90%;
+        margin-left: 8%;
+    }
+    .rounde1 h2{
+        font-size: 35px;
+
+    }
+}
+.underline0{
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: center; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 2rem;
+}
+.underline0::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 17%; /* Center-align the underline (adjust based on the width) */
+    width: 25%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+}
+@media (max-width: 768px){
+    .underline0{
+      font-size: 3.5rem;
+    }
+    .underline0::after{
+      width: 25%;
+      left: 6rem;
+      margin-left: 12px;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover{
+    color:hotpink ;
+  }
+  a:visited{
+    color: green;
+  }
+
+  .underline22{
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: center; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 2rem;
+}
+.underline22::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 3%; /* Center-align the underline (adjust based on the width) */
+    width: 25%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+}
+@media (max-width: 768px){
+    .underline22{
+      font-size: 3.5rem;
+    }
+    .underline22::after{
+      width: 25%;
+      left: 6.5rem;
+      margin-left: 12px;
+    }
+  }
+
+  .underline23{
+    position: relative;
+    display: block; /* Change to block for full-width centering */
+    font-size: 5rem; /* Adjust font size as needed */
+    text-align: center; /* Centers the text within the block */
+    color: #383f47;
+    margin: 10px auto; /* Centers the block element */
+    margin-bottom: 2rem;
+}
+.underline23::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 24%; /* Center-align the underline (adjust based on the width) */
+    width: 25%; /* Set the desired underline width */
+    height: 4px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 0.3s ease;
+}
+@media (max-width: 768px){
+    .underline23{
+      font-size: 3.5rem;
+    }
+    .underline23::after{
+      width: 25%;
+      left: 6.5rem;
+      margin-left: 12px;
+    }
+  }
