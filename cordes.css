@@ -11,9 +11,10 @@ html{
 }
 h1{
     margin-left: 1rem;
+    max-width: 50%;
 }
 .size{
-    max-width: 54%;
+    max-width: 52%;
     margin-left: 23%;
 }
 @media(max-width: 768px){

@@ -226,7 +226,7 @@ margin-left: 1rem;
   .rounde{
       width: 150px;
       height: 150px;
-      margin-left: 30%;
+      margin-left: 33%;
       border: 3px solid #8B53FF;
   }
 
@@ -279,7 +279,7 @@ margin-left: 1rem;
   }
   .underline0::after{
     width: 25%;
-    left: 6rem;
+    left: 7.7rem;
     margin-left: 12px;
   }
 }
@@ -322,7 +322,7 @@ a:visited{
   }
   .underline22::after{
     width: 25%;
-    left: 6rem;
+    left: 7.7rem;
     margin-left: 12px;
   }
 }
@@ -353,7 +353,7 @@ a:visited{
   }
   .underline23::after{
     width: 25%;
-    left: 6rem;
+    left: 7.7rem;
     margin-left: 12px;
   }
 }
