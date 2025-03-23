@@ -14,7 +14,7 @@ h1{
 }
 @media(max-width: 768px){
     h1{
-       max-width: 55%;
+       max-width: 70%;
     }
 }
 .size{
@@ -38,7 +38,7 @@ h1{
     .resize{
         width: 20rem;
         height: 15rem;
-        margin-left: 4%;
+        margin-left: 7%;
 
     }
 }
