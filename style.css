@@ -73,7 +73,12 @@ h2{
   font-family: "Roboto";
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 .wrapper-mf{
   display: flex;
   column-gap: 30px;
@@ -230,7 +235,7 @@ margin-left: 1rem;
   color: #383f47;
   align-content: first baseline;
   max-width: 40%;
-  margin-left: 27%;
+  margin-left: 30%;
   margin-top: 2%;
 }
 .rounde1 h2{
@@ -238,6 +243,7 @@ margin-left: 1rem;
   font-size: 50px; 
   color:  #383f47;
 }
+
 @media(max-width: 768px){
   .rounde1{
       max-width: 100%;
@@ -278,17 +284,15 @@ margin-left: 1rem;
     margin-left: 12px;
   }
 }
-a {
+a{
   text-decoration: none;
 }
-a::after{
-  color: paleturquoise;
-}
+
 a:hover{
-  color:hotpink ;
+  color:hotpink !important;
 }
 a:visited{
-  color: blue;
+  color: paleturquoise;
 }
 
 .underline22{
