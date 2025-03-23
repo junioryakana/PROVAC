@@ -243,7 +243,9 @@ margin-left: 1rem;
   font-size: 50px; 
   color:  #383f47;
 }
-
+.rounde1 h2:hover{
+  color: hotpink !important;
+}
 @media(max-width: 768px){
   .rounde1{
       max-width: 100%;
