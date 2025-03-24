@@ -173,7 +173,7 @@ html{
   .container-BE {
     width: 95%; /* Expand to almost full width */
     height: auto; /* Let height adjust automatically */
-    margin: 20px auto; /* Reduce vertical margins */
+    margin: 20px 35px; /* Reduce vertical margins */
   }
 
   .section-heading span {
@@ -303,8 +303,8 @@ html{
   }
   .underline-1::after{
     width: 20%;
-    left: 35%;
-    margin-left: 2px;
+    left: 40%;
+    margin-left: 5px;
   }
 }
 
