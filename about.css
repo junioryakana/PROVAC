@@ -173,7 +173,7 @@ html{
   .container-BE {
     width: 95%; /* Expand to almost full width */
     height: auto; /* Let height adjust automatically */
-    margin: 20px 35px; /* Reduce vertical margins */
+    margin: 20px auto; /* Reduce vertical margins */
   }
 
   .section-heading span {
@@ -255,7 +255,7 @@ html{
   .container-sm {
     flex-direction: column; /* Stack elements vertically */
     gap: 20px; /* Reduce the gap */
-    margin: 20px 10px; /* Adjust margins for smaller screens */
+    margin: 20px 30px; /* Adjust margins for smaller screens */
   
   }
 
@@ -268,7 +268,7 @@ html{
 @media (max-width: 480px) {
   .container-sm {
     gap: 10px; /* Smaller gap for very small screens */
-    margin: 20px 5px; /* Adjust margins for compact devices */
+    margin: 20px 15px; /* Adjust margins for compact devices */
   }
 
   .float {
