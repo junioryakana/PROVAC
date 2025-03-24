@@ -303,7 +303,7 @@ html{
   }
   .underline-1::after{
     width: 20%;
-    left: 33%;
+    left: 35%;
     margin-left: 2px;
   }
 }
