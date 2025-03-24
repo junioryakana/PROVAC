@@ -161,11 +161,11 @@ h2{
 
   .text-box h2, .text-box-2 h2 {
     font-size: 20px;
-
+    margin-right: 4rem;
   }
 
   .text-box p, .text-box-2 p {
-    max-width: 85%;
+    max-width: 95%;
     font-size: 12px;
     margin-left: 1rem;
   }
