@@ -29,7 +29,7 @@ h1{
 }
 .resize{
     width: 40rem;
-    height: 25rem;
+    height: 22rem;
     margin-left: 23%;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -38,7 +38,7 @@ h1{
     .resize{
         width: 20rem;
         height: 15rem;
-        margin-left: 8.5%;
+        margin-left: 10%;
 
     }
 }
