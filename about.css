@@ -255,7 +255,7 @@ html{
   .container-sm {
     flex-direction: column; /* Stack elements vertically */
     gap: 20px; /* Reduce the gap */
-    margin: 20px 30px; /* Adjust margins for smaller screens */
+    margin: 20px 60px; /* Adjust margins for smaller screens */
   
   }
 
