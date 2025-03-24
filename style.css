@@ -161,7 +161,7 @@ h2{
 
   .text-box h2, .text-box-2 h2 {
     font-size: 20px;
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
 
   .text-box p, .text-box-2 p {
@@ -241,6 +241,7 @@ h2{
 .rounde1 h2{
   max-width: 90%;
   font-size: 50px; 
+  font-weight: bolder;
   color:  #383f47;
 }
 .rounde1 h2:hover{
