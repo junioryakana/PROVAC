@@ -87,7 +87,7 @@ html{
 @media (max-width: 768px){
   .card-text{
     font-size: 10px;
-    margin-left: 3.5rem;
+    margin-left: 1.5rem;
   }
 }
 .wrapper-s {
