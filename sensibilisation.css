@@ -63,7 +63,7 @@ html{
 }
 @media (max-width: 768px){
   .square {
-    width: 140px;
+    width: 150px;
   height: 144px;
   }
  
@@ -338,6 +338,7 @@ html{
 @media (max-width: 768px){
   .container-p{
     margin-left: 16px;
+    max-width: 95%;
   }
 }
   .reveal{
