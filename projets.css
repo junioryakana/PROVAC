@@ -198,20 +198,20 @@ html{
 }
 .head1{
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 1.5rem;
     margin-left: 1rem;
 }
 
 .para2{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 5rem;
     margin-left: 1rem;
 }
 .container-p{
-    max-width: 80%;
+    max-width: 70%;
     margin-top: 5rem;
-    margin-left: 8%;
+    margin-left: 13%;
     text-align: center;
 }
 .reveal{

@@ -72,21 +72,191 @@ html{
     opacity: 1;
   }
 
-  .container-fluid{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    margin: 50px;
-    margin-left: 90px;
-    height: auto;
+.partenariats{
+  display: flex;
+  gap: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+@media(max-width: 768px){
+  .partenariats{
+    flex-direction: column;
+    margin-left: 30%;
   }
+}
+  .rounde-2{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 5px solid #8B53FF; /* Optional border */
+    margin-left: 2%;
+    margin-top: 5%;
   
-  @media (max-width: 768px) {
-    .container-fluid {
-      flex-direction: column; /* Stack items vertically */
-      gap: 10px;
-      margin: 20px; /* Reduce margin further for smaller screens */
-      margin-left: 8px;
-      align-items: center;
+  }
+  @media(max-width: 768px){
+    .rounde-2{
+        width: 150px;
+        height: 150px;
+       
+        border: 3px solid #8B53FF;
+    }
+  
+  }
+
+
+  .rounde3{
+    color: #383f47;
+    align-content: first baseline;
+    max-width: 50%;
+    margin-left: 7%;
+    margin-top: 2%;
+  }
+  .rounde3 h2{
+    max-width: 50%;
+    font-size: 35px; 
+    font-weight: bolder;
+    color:  #383f47;
+  }
+  .rounde3 h2:hover{
+    color: hotpink !important;
+  }
+  @media(max-width: 768px){
+    .rounde3{
+        max-width: 100%;
+        margin-left: 6%;
+    }
+    .rounde3 h2{
+        font-size: 35px;
+  
     }
   }
+
+  .rounde-4{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 5px solid #8B53FF; /* Optional border */
+    margin-left: 70%;
+    margin-top: 5%;
+  
+  }
+  @media(max-width: 768px){
+    .rounde-4{
+        width: 150px;
+        height: 150px;
+        margin-left: 2%;
+        border: 3px solid #8B53FF;
+    }
+  
+  }
+
+  .rounde5{
+    color: #383f47;
+    align-content: first baseline;
+    max-width: 50%;
+    margin-left: 80%;
+    margin-top: 2%;
+  }
+  .rounde5 h2{
+    max-width: 50%;
+    font-size: 35px; 
+    font-weight: bolder;
+    color:  #383f47;
+  }
+  .rounde5 h2:hover{
+    color: hotpink !important;
+  }
+  @media(max-width: 768px){
+    .rounde5{
+        max-width: 100%;
+        margin-left: 6%;
+    }
+    .rounde5 h2{
+        font-size: 35px;
+  
+    }
+  }
+
+
+  .rounde-6{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 5px solid #8B53FF; /* Optional border */
+   margin-left: 140%;
+    margin-top: 5%;
+  
+  }
+  @media(max-width: 768px){
+    .rounde-6{
+        width: 150px;
+        height: 150px;
+        margin-left: 2%;
+        border: 3px solid #8B53FF;
+    }
+  
+  }
+
+  .rounde7{
+    color: #383f47;
+    align-content: first baseline;
+    max-width: 40%;
+    margin-left: 170%;
+    margin-top: 2%;
+  }
+  .rounde7 h2{
+    max-width: 50%;
+    font-size: 35px; 
+    font-weight: bolder;
+    color:  #383f47;
+  }
+  .rounde7 h2:hover{
+    color: hotpink !important;
+  }
+  @media(max-width: 768px){
+    .rounde7{
+        max-width: 100%;
+        margin-left: 6%;
+    }
+    .rounde7 h2{
+        font-size: 35px;
+  
+    }
+  }
+
+  .heading-1 {
+    p {
+      margin: 0 0 20px;
+      padding: 100px;
+      background-color: #f0f0f0;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+  }
+  }
+  .section-heading {
+    font-family: "syne", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin: 30px;
+  }
+  
+  .section-heading span {
+    color: #031A9A;
+  }
+  h2{
+    text-align: center;
+    font-family: "Roboto";
+  }
+
+  @media(max-width: 768px){
+    .section-heading {
+      font-size: 28px; /* Reduced for tablets */
+      margin: 15px;
+    }
+  }
+  
