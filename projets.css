@@ -100,12 +100,11 @@ html{
     display: flex;
     flex-direction: column; /* Arrange elements in a column */
     gap: 20px; /* Space between elements */
-    margin-left: 1px;
-    
+    margin-left: 1px; 
   }
   @media (max-width: 768px){
     .container-s{
-        max-width: 90%;
+       max-width: 90%; 
       margin-left: 1rem;
       gap: 10px;
     }
@@ -166,6 +165,11 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+@media(max-width: 768px){
+  .text1{
+    max-width: 98%;
+  }
+}
 .under{
     position: relative;
     display: block; /* Change to block for full-width centering */
@@ -191,8 +195,8 @@ html{
         font-size: 1.5rem;
 }
     .under::after{
-        width: 25%;
-        left: 0;
+        width: 40%;
+        left: 7%;
         margin-left: 2px;
 }
 }
@@ -202,17 +206,39 @@ html{
     margin-top: 1.5rem;
     margin-left: 1rem;
 }
+@media(max-width: 768px){
+  .head1{
+    font-size: 32px;
+  }
+}
 
 .para2{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5rem;
     margin-left: 1rem;
 }
+@media (max-width: 768px){
+ .para2{
+  max-width: 100%;
+  font-size: 16px;
+ }
+}
+
 .container-p{
     max-width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     margin-top: 5rem;
     margin-left: 13%;
     text-align: center;
+}
+@media(max-width: 768px){
+  .container-p{
+    max-width: 85%;
+    text-align: left;
+    font-size: 16px;
+  }
 }
 .reveal{
     position: relative;
