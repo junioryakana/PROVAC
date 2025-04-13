@@ -17,6 +17,15 @@ h1{
        max-width: 70%;
     }
 }
+h2 {
+  margin-left: 23%;
+  font-size: 30px;
+}
+@media (max-width: 768px){
+ h2{
+  max-width: 70%;
+ } 
+}
 .size{
     max-width: 52%;
     margin-left: 23%;
