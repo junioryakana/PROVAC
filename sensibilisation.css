@@ -180,7 +180,7 @@ html{
     }
     .public::after{
       width: 25%;
-      left: 2rem;
+      left: 0;
       margin-left: 12px;
     }
   }

@@ -83,7 +83,7 @@ html{
       flex-direction: column;
       width: 80%;
       text-align: start;
-      margin-left: 2%;
+      margin-left: 3%;
     }
   }
   .contain-p{
@@ -224,7 +224,7 @@ html{
  .para2{
   max-width: 100%;
   font-size: 16px;
-  margin-left: 2%;
+  margin-left: 3%;
  }
 }
 
@@ -241,7 +241,7 @@ html{
     max-width: 85%;
     text-align: left;
     font-size: 16px;
-    margin-left: 2%;
+    margin-left: 3%;
   }
 }
 .reveal{
