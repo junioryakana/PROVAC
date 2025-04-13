@@ -25,7 +25,7 @@ h2 {
 }
 @media (max-width: 768px){
  h2{
-  max-width: 70%;
+  max-width: 90%;
   margin-left: 2%;
   font-weight: bold;
  } 
