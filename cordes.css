@@ -24,6 +24,7 @@ h2 {
 @media (max-width: 768px){
  h2{
   max-width: 70%;
+  margin-left: 1rem;
  } 
 }
 .size{
@@ -37,7 +38,7 @@ h2 {
     }
 }
 .resize{
-    width: 40rem;
+    width: 43rem;
     height: 25rem;
     margin-left: 23%;
     margin-top: 2rem;
@@ -45,13 +46,12 @@ h2 {
 }
 @media (max-width: 768px){
     .resize{
-        width: 20rem;
+        width: 23rem;
         height: 13rem;
         margin-left: 10%;
 
     }
 }
-
 
 
 footer{
