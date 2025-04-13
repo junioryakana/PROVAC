@@ -105,15 +105,9 @@ html{
   }
 
 
-  .rounde3{
-    color: #383f47;
-    align-content: first baseline;
-    max-width: 50%;
-    margin-left: 7%;
-    margin-top: 2%;
-  }
+  
   .rounde3 h2{
-    max-width: 50%;
+    max-width: 100%;
     font-size: 35px; 
     font-weight: bolder;
     color:  #383f47;
@@ -122,12 +116,10 @@ html{
     color: hotpink !important;
   }
   @media(max-width: 768px){
-    .rounde3{
-        max-width: 100%;
-        margin-left: 6%;
-    }
+
     .rounde3 h2{
         font-size: 35px;
+        margin-right: 30%;
   
     }
   }
@@ -138,7 +130,7 @@ html{
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image fills the circle */
     border: 5px solid #8B53FF; /* Optional border */
-    margin-left: 70%;
+    margin-left: 40%;
     margin-top: 5%;
   
   }
@@ -152,18 +144,13 @@ html{
   
   }
 
-  .rounde5{
-    color: #383f47;
-    align-content: first baseline;
-    max-width: 50%;
-    margin-left: 80%;
-    margin-top: 2%;
-  }
+  
   .rounde5 h2{
-    max-width: 50%;
+    max-width: 100%;
     font-size: 35px; 
     font-weight: bolder;
     color:  #383f47;
+    margin-left: 8rem;
   }
   .rounde5 h2:hover{
     color: hotpink !important;
@@ -171,10 +158,12 @@ html{
   @media(max-width: 768px){
     .rounde5{
         max-width: 100%;
-        margin-left: 6%;
+        margin-right: 30%;
+        
     }
     .rounde5 h2{
         font-size: 35px;
+        margin-left: 0;
   
     }
   }
@@ -186,7 +175,7 @@ html{
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image fills the circle */
     border: 5px solid #8B53FF; /* Optional border */
-   margin-left: 140%;
+   margin-left: 48%;
     margin-top: 5%;
   
   }
@@ -200,29 +189,22 @@ html{
   
   }
 
-  .rounde7{
-    color: #383f47;
-    align-content: first baseline;
-    max-width: 40%;
-    margin-left: 170%;
-    margin-top: 2%;
-  }
+  
   .rounde7 h2{
     max-width: 50%;
     font-size: 35px; 
     font-weight: bolder;
     color:  #383f47;
+    margin-left: 190px;
   }
   .rounde7 h2:hover{
     color: hotpink !important;
   }
   @media(max-width: 768px){
-    .rounde7{
-        max-width: 100%;
-        margin-left: 6%;
-    }
+    
     .rounde7 h2{
         font-size: 35px;
+        margin-left: 0;
   
     }
   }

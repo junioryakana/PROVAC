@@ -14,7 +14,9 @@ h1{
 }
 @media(max-width: 768px){
     h1{
-       max-width: 70%;
+       max-width: 80%;
+       font-size: 45px;
+       font-weight: bolder;
     }
 }
 h2 {
@@ -24,12 +26,14 @@ h2 {
 @media (max-width: 768px){
  h2{
   max-width: 70%;
-  margin-left: 1rem;
+  margin-left: 2%;
+  font-weight: bold;
  } 
 }
 .size{
     max-width: 52%;
     margin-left: 23%;
+    font-family: "Poppins", sans-serif;
 }
 @media(max-width: 768px){
     .size{
@@ -48,7 +52,7 @@ h2 {
     .resize{
         width: 23rem;
         height: 13rem;
-        margin-left: 1%;
+        margin-left: 2%;
 
     }
 }
