@@ -365,11 +365,11 @@ footer{
   margin: 20px 0;
 }
 
-.ul-li ul li{
+.text-left ul li{
   list-style: none;
   margin-bottom: 12px;  
 }
-.ul-li ul li a{
+.text-left ul li a{
   text-decoration: none;
   color: #FFF;
   text-align: left;
@@ -462,10 +462,10 @@ cursor: pointer;
   footer{
     bottom: unset;
   }
-  .col{
+  .col-f{
     flex-basis: 100%;
   }
-  .col:nth-child(2), .col:nth-child(3){
+  .col-f:nth-child(2), .col:nth-child(3){
     flex-basis: 100%;
   }
 }
